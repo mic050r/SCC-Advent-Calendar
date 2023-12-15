@@ -16,11 +16,24 @@
   <title>Sparta Advend Calendar 2023</title>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="snow.css">
+  <style>
+    /* css - 명찰에 스타일링을 주는 코드 */
+    .title {
+      color: red;
+    }
+  </style>
 </head>
 
 <body>
   <!-- 이 곳에 뼈대 코드를 입력! -->
-  <h2>안녕</h2>
+  <!-- HTML 뼈대(구조) - 웹페잊 -->
+  <h1 class="title">안녕 눈사람?</h1>
+
+  <script>
+    const titleDiv = document.querySelector(".title");
+    titleDiv.innerText = "자바스트립트로 변경한 데이터";
+  </script>
+
   <script src="index.js"></script>
 </body>
 

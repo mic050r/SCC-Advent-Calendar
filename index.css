@@ -1,0 +1,9 @@
+body {
+  /* 배경화면 사진 추가 */
+  background-image: url("./image/bg.png");
+  /*웹사이트에 딱 맞게 설정*/
+  background-size: cover;
+  /* 배경이 이미지 가운데에 */
+  background-position: center;
+
+}
